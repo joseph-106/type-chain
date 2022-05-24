@@ -7,7 +7,7 @@
  * @returns boolean
  */
 export function init(config) {
-  return true;
+    return true;
 }
 /**
  * Exits the program
@@ -15,5 +15,5 @@ export function init(config) {
  * @returns number
  */
 export function exit(code) {
-  return code + 1;
+    return code + 1;
 }
